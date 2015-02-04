@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 这是为480像素宽的手机设计的 -->
+    <dimen name="screen_w">480px</dimen>
+    <dimen name="tile_space_w">386px</dimen>
+    <dimen name="workspace_w">866px</dimen>
+    <dimen name="button_space_w">94px</dimen>
+    <dimen name="app_space_w">386px</dimen>
+    <dimen name="top_margin_h">94px</dimen>
+    <dimen name="tile_left_space">28px</dimen>
+    <dimen name="tiles_space">12px</dimen>
+    <dimen name="tile_w">172px</dimen>
+    <dimen name="tile_h">172px</dimen>
+    <dimen name="tile_icon_w">72px</dimen>
+    <dimen name="tile_icon_h">72px</dimen>
+    <dimen name="tile_edit_w">132px</dimen>
+    <dimen name="tile_edit_h">132px</dimen>
+    <dimen name="tile_name_font_h">20sp</dimen>
+    <dimen name="tile_name_h">30px</dimen>
+    <dimen name="tile_name_left_margin">6px</dimen>
+    <dimen name="tile_indicator_font_h">30sp</dimen>
+    <dimen name="drag_view_w">214px</dimen>
+    <dimen name="drag_view_h">214px</dimen>
+    <dimen name="status_bar_h">26px</dimen>
+    <dimen name="status_bar_font_h">14sp</dimen>
+    <dimen name="status_item_narrow_w">24px</dimen>
+    <dimen name="status_item_wide_w">40px</dimen>
+    <dimen name="status_item_padding">3px</dimen>
+    <dimen name="button_w">42px</dimen>
+    <dimen name="button_h">42px</dimen>
+    <dimen name="inactive_tile_w">130px</dimen>
+    <dimen name="inactive_tile_h">130px</dimen>
+    
+    <dimen name="wide_tile_w">356px</dimen>
+    <dimen name="buttons_space">30px</dimen>
+    <dimen name="app_icon_w">60px</dimen>
+    <dimen name="app_icon_h">60px</dimen>
+    <dimen name="app_icon_space">8px</dimen>
+    <dimen name="app_name_font_h">22sp</dimen>
+    <dimen name="app_class_view_w">100px</dimen>
+    <dimen name="app_class_view_h">100px</dimen>
+    <dimen name="app_class_view_space">10px</dimen>
+    <dimen name="app_class_font_h">26sp</dimen>
+    <dimen name="app_left_space">98px</dimen>
+    <dimen name= "app_context_menu_one_h">89px</dimen>
+    <dimen name= "app_context_menu_three_h">219px</dimen>
+    <dimen name="app_context_menu_right_movement">10px</dimen>
+    <dimen name="search_left_space">24px</dimen>
+    <dimen name="search_font_h">36sp</dimen>
+    <dimen name="search_box_h">44px</dimen>
+    <dimen name="search_box_w">432px</dimen>
+    <dimen name="search_mode_app_icon_space">24px</dimen>
+    <dimen name="search_icon_w">60px</dimen>
+    <dimen name="search_icon_h">60px</dimen>
+    <dimen name="search_box_app_icon_space">12px</dimen>
+    <dimen name="app_context_menu_item_left_padding">20px</dimen>
+    <dimen name="app_context_menu_item_top_padding">12px</dimen>
+    <dimen name="app_context_menu_item_bottom_padding">12px</dimen>
+    <dimen name="app_context_menu_item_text_size">20sp</dimen>
+    <dimen name="app_context_menu_top_padding">12px</dimen>
+    <dimen name="app_context_menu_bottom_padding">12px</dimen>
+    
+    <dimen name="settings_left_space">30px</dimen>
+    <dimen name="settings_right_space">30px</dimen>
+    <dimen name="settings_title_text_size">42sp</dimen>
+    <dimen name="settings_title_top_padding">10px</dimen>
+    <dimen name="settings_title_item_space">15px</dimen>
+    <dimen name="settings_item_space">40px</dimen>
+    <dimen name="settings_group_item_space">5px</dimen>
+    <dimen name="settings_editbox_h">44px</dimen>
+    <dimen name="settings_accent_color_panel_size">24px</dimen>
+    <dimen name="settings_accents_chooser_size">40px</dimen>
+    <dimen name="settings_accents_chooser_space">22px</dimen>
+    <dimen name="settings_accents_chooser_text_size">24sp</dimen>
+    <dimen name="setings_normal_text_size">18sp</dimen>
+    
+    
+        <!-- 新增加 -->
+    <dimen name="tile_name_bottom_margin">12px</dimen>
+    <dimen name="drag_view_wide_w">398px</dimen>
+    
+</resources>

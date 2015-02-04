@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Windows Phone 啟動</string>
+    <string name="app_context_pin_to_start">釘選到開始畫面</string>
+    <string name="app_context_uninstall">解除安裝</string>
+    <string name="app_context_rate_and_review">評分並評論</string>
+    <string name="activity_not_found">未知軟體。</string>
+    <string name="string_null"></string>
+    <string name="string_na">未可用</string>
+    <string name="string_search_box_tip">搜尋</string>
+    <string name="string_system_settings">系統設定</string>
+    <string name="string_launcher_settings">啟動設定</string>
+    <string name="string_add_special_tile_settings">增加特別磁磚</string>
+    <string name="string_settings">設定</string>
+    <string name ="string_settings_accents">輔色</string>
+    <string name="string_settings_theme">佈景主題</string>
+    <string name="settings_theme_summary_prefix">根據您今天、這週或整個月的心情來變更電\n話背景與</string>
+    <string name="settings_theme_summary_middle">輔色</string>
+    <string name="settings_theme_summary_suffix">。</string>
+    <string name="string_settings_theme_background">背景</string>
+    <string name="string_settings_theme_background_dark">深色</string>
+    <string name="string_settings_theme_background_light">淺色</string>
+    <string name="string_settings_theme_accent_color">輔色</string>
+    
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">洋紅</string>
+    <string name="string_accent_color_purple">紫色</string>
+    <string name="string_accent_color_teal">藍綠</string>
+    <string name="string_accent_color_lime">亮綠</string>
+    <string name="string_accent_color_brown">棕色</string>
+    <string name="string_accent_color_pink">粉紅</string>
+    <string name="string_accent_color_mango">橙色</string>
+    <string name="string_accent_color_blue">藍色</string>
+    <string name="string_accent_color_red">紅色</string>
+    <string name="string_accent_color_green">綠色</string>
+    
+    <!-- 新增加的字符 2012-03-13 -->
+	<string name="string_show_status_bar">顯示系統狀態欄</string>
+	<string name="string_hide_tile_name">隱藏程式名目</string>
+	<string name="string_large_tile_icon">啟用大圖示</string>
+	<string name="string_choose_tile_icon">抉擇程式圖示</string>
+	<string name="string_ok">確定</string>
+	<string name="string_cancel">消除</string>
+	<string name="string_on">啟用</string>
+	<string name="string_off">失效</string>
+	<string name="string_choose_app">抉擇程式</string>
+	<string name="string_choose_tile_type">抉擇瓷磚類別</string>
+	<string name="string_choose_tile_type_to_continue">必須抉擇一個磁磚類型，才能增加。</string>
+	<string name="string_choose_application_to_continue">必須抉擇一個應用程式，才能增加。</string>
+</resources>

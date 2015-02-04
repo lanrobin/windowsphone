@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Windows Phone 런처</string>
+    <string name="app_context_pin_to_start">시 작 화에 고정</string>
+    <string name="app_context_uninstall">제거</string>
+    <string name="app_context_rate_and_review">리 뷰 남기기</string>
+    <string name="activity_not_found">앱이 설치되지 않았습니다.</string>
+    <string name="string_null"></string>
+    <string name="string_na">NA</string>
+    <string name="string_search_box_tip">검색</string>
+    <string name="string_add_special_tile_settings">특수 타일 추가</string>
+    <string name="string_system_settings">시스템 설정</string>
+    <string name="string_launcher_settings">런처 설정</string>
+    <string name="string_settings">설정</string>
+    <string name ="string_settings_accents">테마 컬러</string>
+    <string name="string_settings_theme">테마</string>
+    <string name="settings_theme_summary_prefix">기분에 맞게 오늘,이번주 또는 월별로 휴대폰\n 
+배결 및</string>
+    <string name="settings_theme_summary_middle">테마 컬러</string>
+    <string name="settings_theme_summary_suffix">를 변경하세요.</string>
+    <string name="string_settings_theme_background">배경</string>
+    <string name="string_settings_theme_background_dark">어둡게</string>
+    <string name="string_settings_theme_background_light">화이트</string>
+    <string name="string_settings_theme_accent_color">테마 걸러</string>
+    
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">자홍</string>
+    <string name="string_accent_color_purple">보라</string>
+    <string name="string_accent_color_teal">청록</string>
+    <string name="string_accent_color_lime">라임</string>
+    <string name="string_accent_color_brown">갈색</string>
+    <string name="string_accent_color_pink">분홍</string>
+    <string name="string_accent_color_mango">주황</string>
+    <string name="string_accent_color_blue">파랑</string>
+    <string name="string_accent_color_red">빨강</string>
+    <string name="string_accent_color_green">초록</string>
+    
+    	<!-- 新增加的字符 2012-03-13 -->
+	<string name="string_show_status_bar">표시 시스템의 상태 표시줄</string>
+	<string name="string_hide_tile_name">타일 ​​이름 숨기기</string>
+	<string name="string_large_tile_icon">대형 타일 아이콘</string>
+	<string name="string_choose_tile_icon">타일 ​​아이콘을 선택</string>
+	<string name="string_ok">확인</string>
+	<string name="string_cancel">취소</string>
+	<string name="string_on">설정</string>
+	<string name="string_off">사용 안함</string>
+	<string name="string_choose_app">응용 프로그램을 선택</string>
+	<string name="string_choose_tile_type">타일 ​​유형을 선택</string>
+	<string name="string_choose_tile_type_to_continue">계속하려면 타일 유형을 선택하십시오</string>
+	<string name="string_choose_application_to_continue">계속하려면 응용 프로그램을 선택하십시오</string>
+</resources>

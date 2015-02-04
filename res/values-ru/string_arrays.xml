@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_arrays_special_tile_type">
+        <item >Тайл сообщений</item>
+        <item >Тайл пропущенных вызовов</item>
+        <item >Тайл контактов</item>
+        <item >Тайл фотографий</item>
+    </string-array>
+    
+</resources>

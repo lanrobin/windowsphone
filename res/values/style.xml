@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:launcher="http://schemas.android.com/apk/res/com.axen.launcher.wp7">
+
+    <style name="textview"></style>
+
+    <style name="tile_name">
+        <item name="android:background">@color/transparent_color</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">@dimen/tile_name_font_h</item>
+    </style>
+
+    <style name="tile_indicator">
+        <item name="android:background">@color/transparent_color</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">@dimen/tile_indicator_font_h</item>
+    </style>
+
+    <style name="windows_phone_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="app_menu_dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <!-- 无标题 -->
+        <!--
+        <item name="android:windowBackground">@color/transparent</item>
+        < 背景透明 >
+        <item name="android:backgroundDimEnabled">false</item>
+        < 模糊
+        -->
+    </style>
+
+    <style name="status_bar_text_style">
+        <item name="android:background">@color/transparent_color</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">@dimen/status_bar_font_h</item>
+    </style>
+
+    <style name="appContextMenuAnimDrop" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/app_menu_show_drop</item>
+        <item name="android:windowExitAnimation">@anim/app_menu_dismiss</item>
+    </style>
+
+    <style name="appContextMenuAnimFloat" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/app_menu_show_float</item>
+        <item name="android:windowExitAnimation">@anim/app_menu_dismiss</item>
+    </style>
+
+    <style name="translucent" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/transparent_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="trasparent_activity" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="noAnimTheme" parent="trasparent_activity">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

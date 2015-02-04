@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_arrays_special_tile_type">
+        <item >Message tile</item>
+        <item >Missing call tile</item>
+        <item >People &amp; Contacts tile</item>
+        <item >Gallery tile</item>
+    </string-array>
+    
+</resources>

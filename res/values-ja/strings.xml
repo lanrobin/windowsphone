@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Windows phone テーブルの表</string>
+    <string name="app_context_pin_to_start">スタ-ト画面に追加</string>
+    <string name="app_context_uninstall">削除</string>
+    <string name="app_context_rate_and_review">評価とレビュ-</string>
+    <string name="activity_not_found">このアプリはインストールされていません。</string>
+    <string name="string_null"></string>
+    <string name="string_add_special_tile_settings">ウィジェットなどのタイル追加</string>
+    <string name="string_na">NA</string>
+    <string name="string_search_box_tip">検索</string>
+    <string name="string_system_settings">システムの設定</string>
+    <string name="string_launcher_settings">起動ツールの設定</string>
+    <string name="string_settings">設定</string>
+    <string name="string_settings_accents">アクヤントカラ-</string>
+    <string name="string_settings_theme">ラ-マ</string>
+    <string name="settings_theme_summary_prefix">今日、今週、今月の気分に合わせて電話の\n背景や</string>
+    <string name="settings_theme_summary_middle">アクヤントカラ-</string>
+    <string name="settings_theme_summary_suffix">を変更できます。</string>
+    <string name="string_settings_theme_background">背景</string>
+    <string name="string_settings_theme_background_dark">黑</string>
+    <string name="string_settings_theme_background_light">白</string>
+    <string name="string_settings_theme_accent_color">アクヤントカラ-</string>
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">マゼンタ</string>
+    <string name="string_accent_color_purple">パ-プル</string>
+    <string name="string_accent_color_teal">テイ-ル</string>
+    <string name="string_accent_color_lime">テイム</string>
+    <string name="string_accent_color_brown">ブラウン</string>
+    <string name="string_accent_color_pink">ピンク</string>
+    <string name="string_accent_color_mango">マンゴ-</string>
+    <string name="string_accent_color_blue">ブル-</string>
+    <string name="string_accent_color_red">ルッド</string>
+    <string name="string_accent_color_green">ゲリ-ソ</string>
+
+    <!-- 新增加的字符 2012-03-13 -->
+    <string name="string_show_status_bar">Windows ステータス バー コントロールを表す</string>
+    <string name="string_hide_tile_name">タイトルを隠された</string>
+    <string name="string_large_tile_icon">大アイコンサイズ</string>
+    <string name="string_choose_tile_icon">選択アイコンサイズ</string>
+    <string name="string_ok">確認</string>
+    <string name="string_cancel">キャンセル</string>
+    <string name="string_on">On</string>
+    <string name="string_off">Off</string>
+    <string name="string_choose_app">アブリケーションを選択する</string>
+    <string name="string_choose_tile_type">タイブ型を選択する</string>
+    <string name="string_choose_tile_type_to_continue">再度タイブ型を選択してください</string>
+    <string name="string_choose_application_to_continue">再度アブリケーションを選択してください</string>
+
+</resources>

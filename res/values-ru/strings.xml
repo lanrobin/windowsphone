@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Windows Phone 7 Launcher</string>
+    <string name="app_context_pin_to_start">на рабочий стол</string>
+    <string name="app_context_uninstall">удалить</string>
+    <string name="app_context_rate_and_review">оценки и отзывы</string>
+    <string name="activity_not_found">Приложение не найдено.</string>
+    <string name="string_null"></string>
+	<string name="string_na">NA</string>
+    <string name="string_search_box_tip">Поиск</string>
+    <string name="string_system_settings">Настройки системы</string>
+    <string name="string_launcher_settings">Настройки лаунчера</string>
+    <string name="string_add_special_tile_settings">Добавить особенный тайл</string>
+    <string name="string_settings">НАСТРОЙКИ</string>
+    <string name="string_settings_accents">ЦВЕТА ЭЛЕМЕНТОВ</string>
+    <string name="string_settings_theme">Тема</string>
+    <string name="settings_theme_summary_prefix">Измените фон телефона и\n</string>
+    <string name="settings_theme_summary_middle">цвет элементов \ </string>
+    <string name="settings_theme_summary_suffix">по вашему вкусуна день,\nнеделю, или месяц.</string>
+    <string name="string_settings_theme_background">Фон</string>
+    <string name="string_settings_theme_background_dark">темный</string>
+    <string name="string_settings_theme_background_light">светлый</string>
+    <string name="string_settings_theme_accent_color">Цвет элементов</string>
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">пурпурный</string>
+    <string name="string_accent_color_purple">сиреневый</string>
+    <string name="string_accent_color_teal">бирюзовый</string>
+    <string name="string_accent_color_lime">лайм</string>
+    <string name="string_accent_color_brown">коричневый</string>
+    <string name="string_accent_color_pink">розовый</string>
+    <string name="string_accent_color_mango">оранжевый</string>
+    <string name="string_accent_color_blue">голубой</string>
+    <string name="string_accent_color_red">красный</string>
+    <string name="string_accent_color_green">зеленый</string>
+	
+	<!-- 新增加的字符 2012-03-13 -->
+	<string name="string_show_status_bar">Показывать системную строку состояния</string>
+	<string name="string_hide_tile_name">Скрывать названия тайлов</string>
+	<string name="string_large_tile_icon">Большие икогки тайлов</string>
+	<string name="string_choose_tile_icon">Выберите цвет тайлов</string>
+	<string name="string_ok">OK</string>
+	<string name="string_cancel">Отменить</string>
+	<string name="string_on">Вкл</string>
+	<string name="string_off">Выключено</string>
+	<string name="string_choose_app">Выберите приложение</string>
+	<string name="string_choose_tile_type">Выберите тип тайла</string>
+	<string name="string_choose_tile_type_to_continue">Пожалуйста, выберите тип тайла, чтобы продолжить</string>
+	<string name="string_choose_application_to_continue">Пожалуйста, выберите приложение, чтобы продолжить</string>
+</resources>

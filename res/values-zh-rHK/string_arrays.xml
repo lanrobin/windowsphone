@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_arrays_special_tile_type">
+        <item >資訊磁磚</item>
+        <item >來電磁磚</item>
+        <item >聯絡人磁磚</item>
+        <item >圖片磁磚</item>
+    </string-array>
+    
+</resources>

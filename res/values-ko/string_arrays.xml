@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_arrays_special_tile_type">
+        <item >메시지 타일</item>
+        <item >통화 타일 누락</item>
+        <item >사람과 연락처 타일</item>
+        <item >포토 타일 (갤러리 타일)</item>
+    </string-array>
+    
+</resources>

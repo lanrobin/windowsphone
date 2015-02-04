@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.axen.launcher.wp7.ui.DragLayer
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:launcher="http://schemas.android.com/apk/res/com.axen.launcher.wp7"
+	android:id="@+id/id_drag_layer" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/black_background_color"
+	android:orientation="horizontal">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/id_status_bar" android:layout_width="0dip"
+		android:layout_height="wrap_content" android:background="#00FFFFFF">
+
+		<ImageView android:id="@+id/id_status_bar_signal_strength"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_alignParentLeft="true" android:layout_gravity="center_vertical" android:src="@drawable/n_signal_strength_4" />
+
+		<ImageView android:id="@+id/id_status_bar_signal_type"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical"
+			android:layout_toRightOf="@id/id_status_bar_signal_strength"
+			android:src="@drawable/n_signal_type_3g" />
+		<ImageView android:id="@+id/id_status_bar_data_direction"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical" 
+			android:layout_toRightOf="@id/id_status_bar_signal_type"
+			android:src="@drawable/n_data_direct_both" />
+
+		<ImageView android:id="@+id/id_status_bar_bluetooth"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical" android:layout_toRightOf="@+id/id_status_bar_data_direction"
+			 android:src="@drawable/n_bluetooth" />
+
+		<ImageView android:id="@+id/id_status_bar_gps"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="left|center_vertical"
+			android:layout_toRightOf="@id/id_status_bar_bluetooth"
+			 android:src="@drawable/transparent_24_24" />
+
+		<ImageView android:id="@+id/id_status_bar_wifi"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical" android:layout_toRightOf="@id/id_status_bar_gps"
+			 android:src="@drawable/n_wifi_4" />
+
+		<TextView android:id="@+id/id_status_bar_time"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:text="@string/string_null" />
+
+
+
+		<ImageView android:id="@+id/id_status_bar_battery"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical" android:layout_toLeftOf="@id/id_status_bar_time"
+			android:paddingRight="@dimen/status_item_padding" android:src="@drawable/n_battery_4" />
+
+		<ImageView android:id="@+id/id_status_bar_vibrate"
+			android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_h"
+			android:layout_gravity="center_vertical" android:layout_toLeftOf="@id/id_status_bar_battery"
+			 android:src="@drawable/n_vibrate" />
+	</RelativeLayout>
+
+	<com.axen.launcher.wp7.ui.WorkSpace
+		android:id="@+id/id_workspace" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black_background_color">
+
+		<com.axen.launcher.wp7.ui.TileSpace
+			android:id="@+id/id_tile_space" android:layout_width="@dimen/tile_space_w"
+			android:layout_height="wrap_content" android:background="#FFFF0000">
+		</com.axen.launcher.wp7.ui.TileSpace>
+
+		<com.axen.launcher.wp7.ui.ButtonSpace
+			android:id="@+id/id_button_space" android:layout_width="@dimen/button_space_w"
+			android:layout_height="fill_parent" android:background="@color/black_background_color">
+
+			<ImageView android:id="@+id/id_button_arrow"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/button_arrow_right" />
+
+			<ImageView android:id="@+id/id_button_search"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/button_search" />
+		</com.axen.launcher.wp7.ui.ButtonSpace>
+
+		<com.axen.launcher.wp7.ui.AppClassSpace
+			android:id="@+id/id_app_class_space" android:layout_width="@dimen/app_space_w"
+			android:layout_height="wrap_content" android:background="@color/black_background_color">
+			<!-- <EditText android:id="@+id/id_app_search_box" android:layout_width="match_parent" 
+				android:layout_height="@dimen/search_box_h" android:textSize="@dimen/search_font_h" 
+				android:text="@string/string_search_box_tip"/> -->
+		</com.axen.launcher.wp7.ui.AppClassSpace>
+
+		<com.axen.launcher.wp7.ui.AppSpace
+			android:id="@+id/id_app_space" android:layout_width="@dimen/app_space_w"
+			android:layout_height="wrap_content" android:background="@color/black_background_color">
+		</com.axen.launcher.wp7.ui.AppSpace>
+	</com.axen.launcher.wp7.ui.WorkSpace>
+
+</com.axen.launcher.wp7.ui.DragLayer>

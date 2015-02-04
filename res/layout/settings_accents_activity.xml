@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_settins_accents_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_h"
+        android:background="@color/transparent_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_background_color"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_color"
+            android:paddingLeft="@dimen/settings_left_space"
+            android:paddingRight="@dimen/settings_right_space"
+            android:paddingBottom="@dimen/settings_item_space"
+            android:paddingTop="@dimen/settings_title_top_padding"
+            android:text="@string/string_settings_accents"
+            android:textColor="@color/black_background_text_color" />
+
+        <ListView
+            android:id="@+id/id_accent_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent_color"
+            >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

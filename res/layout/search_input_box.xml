@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/id_search_editbox"
+        android:layout_width="@dimen/search_box_w"
+        android:layout_height="@dimen/search_box_h"
+        android:layout_gravity="center|center_vertical"
+        android:background="@drawable/wp7_edittext_background_black"
+        android:paddingLeft="@dimen/tile_name_left_margin"
+        android:hint="@string/string_search_box_tip" />
+
+</LinearLayout>

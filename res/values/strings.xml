@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Windows Phone Launcher</string>
+    <string name="app_context_pin_to_start">pin to start</string>
+    <string name="app_context_uninstall">uninstall</string>
+    <string name="app_context_rate_and_review">rate and review</string>
+    <string name="activity_not_found">Application not found.</string>
+    <string name="string_null"></string>
+    <string name="string_na">NA</string>
+    <string name="string_search_box_tip">Search</string>
+    <string name="string_system_settings">System settings</string>
+    <string name="string_launcher_settings">Launcher settings</string>
+    <string name="string_add_special_tile_settings">Add special tile</string>
+    <string name="string_settings">SETTINGS</string>
+    <string name="string_settings_accents">ACCENTS</string>
+    <string name="string_settings_theme">theme</string>
+    <string name="settings_theme_summary_prefix">Change your phone\'s background and\n</string>
+    <string name="settings_theme_summary_middle">accent color \ </string>
+    <string name="settings_theme_summary_suffix">to match your mood today,\nthis week, or all month.</string>
+    <string name="string_settings_theme_background">Background</string>
+    <string name="string_settings_theme_background_dark">dark</string>
+    <string name="string_settings_theme_background_light">light</string>
+    <string name="string_settings_theme_accent_color">Accent color</string>
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">magenta</string>
+    <string name="string_accent_color_purple">purple</string>
+    <string name="string_accent_color_teal">teal</string>
+    <string name="string_accent_color_lime">lime</string>
+    <string name="string_accent_color_brown">brown</string>
+    <string name="string_accent_color_pink">pink</string>
+    <string name="string_accent_color_mango">mango</string>
+    <string name="string_accent_color_blue">blue</string>
+    <string name="string_accent_color_red">red</string>
+    <string name="string_accent_color_green">green</string>
+	
+	<!-- 新增加的字符 2012-03-13 -->
+	<string name="string_show_status_bar">Show system statusbar</string>
+	<string name="string_hide_tile_name">Hide tile name</string>
+	<string name="string_large_tile_icon">Large tile icon</string>
+	<string name="string_choose_tile_icon">Choose tile icon</string>
+	<string name="string_ok">OK</string>
+	<string name="string_cancel">Cancel</string>
+	<string name="string_on">On</string>
+	<string name="string_off">Off</string>
+	<string name="string_choose_app">Choose Application</string>
+	<string name="string_choose_tile_type">Choose tile type</string>
+	<string name="string_choose_tile_type_to_continue">Please select tile type to continue</string>
+	<string name="string_choose_application_to_continue">Please select an applition to continue</string>
+</resources>

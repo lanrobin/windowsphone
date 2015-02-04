@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/screen_w"
+    android:layout_height="match_parent"
+    android:background="@color/black_background_menu_background_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/app_context_menu_bottom_padding"
+    android:paddingTop="@dimen/app_context_menu_top_padding" >
+
+    <TextView
+        android:id="@+id/app_menu_pin_to_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_background_menu_background_color"
+        android:paddingBottom="@dimen/app_context_menu_item_bottom_padding"
+        android:paddingLeft="@dimen/app_context_menu_item_left_padding"
+        android:paddingTop="@dimen/app_context_menu_item_top_padding"
+        android:text="@string/app_context_pin_to_start"
+        android:textColor="@color/black_background_menu_text_color"
+        android:textSize="@dimen/app_context_menu_item_text_size" />
+
+    <TextView
+        android:id="@+id/app_menu_rate_and_review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_background_menu_background_color"
+        android:paddingBottom="@dimen/app_context_menu_item_bottom_padding"
+        android:paddingLeft="@dimen/app_context_menu_item_left_padding"
+        android:paddingTop="@dimen/app_context_menu_item_top_padding"
+        android:text="@string/app_context_rate_and_review"
+        android:textColor="@color/black_background_menu_text_color"
+        android:textSize="@dimen/app_context_menu_item_text_size" />
+
+    <TextView
+        android:id="@+id/app_menu_uninstall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_background_menu_background_color"
+        android:paddingBottom="@dimen/app_context_menu_item_bottom_padding"
+        android:paddingLeft="@dimen/app_context_menu_item_left_padding"
+        android:paddingTop="@dimen/app_context_menu_item_top_padding"
+        android:text="@string/app_context_uninstall"
+        android:textColor="@color/black_background_menu_text_color"
+        android:textSize="@dimen/app_context_menu_item_text_size" />
+
+</LinearLayout>

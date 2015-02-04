@@ -1,0 +1,687 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.axen.launcher.app.AccentsManager:
+    8:8:public AccentsManager()
+    51:59:public static int getIdFromColor(android.content.Context,int)
+com.axen.launcher.app.AppManager:
+    private static final java.lang.String TAG
+    165:197:private android.text.SpannableStringBuilder getMatch(int,int,java.lang.String,java.lang.CharSequence)
+com.axen.launcher.app.AppManager$Holder:
+    64:64:private AppManager$Holder()
+com.axen.launcher.app.AppReceiver:
+    private static final java.lang.String TAG
+com.axen.launcher.app.TileItemInfo:
+    public static final int FLAG_UNMOVABLE
+    public static final int FLAG_UNREMOVABLE
+    public static final int FLAG_WIDE_TILE
+    public static final int FLAG_FIX_TILE
+    public static final int FLAG_SYSTEM_APP
+    public static final int FLAG_FULL_SIZE
+    public static final int FLAG_HIDE_TILE_NAME
+    public static final int FLAG_EDITTED_TILE_NAME
+    public static final int TYPE_INVALID
+    public static final int TYPE_COMMON
+    public static final int TYPE_WIDGET
+    public static final int TYPE_MESSAGE
+    public static final int TYPE_PHONE
+    public static final int TYPE_GALLERY
+    public static final int TYPE_PEOPLE
+com.axen.launcher.app.TileManager:
+    private static final java.lang.String TAG
+    private static final int DEFAULT_TILE_NUMBER
+    private static final int MAX_ALLOW_TILE
+    484:485:private void deleteFile(java.lang.String)
+com.axen.launcher.app.TileManager$Holder:
+    127:127:private TileManager$Holder()
+com.axen.launcher.app.WhiteIconMatcher:
+    13:13:public WhiteIconMatcher()
+com.axen.launcher.provider.AppInfoProvider:
+    private static final int APPS
+    private static final int APP_ID
+com.axen.launcher.provider.DatabaseHelper:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final java.lang.String TAG
+com.axen.launcher.provider.ScreenShotProvider:
+    private static final int SHOTS
+    private static final int SHOT_ID
+    private static final java.lang.String TAG
+com.axen.launcher.provider.TileInfoProvider:
+    private static final int TILES
+    private static final int TILE_ID
+com.axen.launcher.provider.WP7Launcher:
+    public static final java.lang.String APP_ICON_DIR
+    public static final java.lang.String SCHEMA
+    7:8:private WP7Launcher()
+com.axen.launcher.provider.WP7Launcher$AppInfo:
+    public static final java.lang.String AUTHORITY
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String PATH_APPS
+    public static final java.lang.String PATH_APP_ID
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String _FLAGS
+    public static final java.lang.String _PACKAGE
+    public static final java.lang.String _ACTIVITY
+    public static final java.lang.String _APP_NAME
+    public static final java.lang.String _PINNED
+    public static final java.lang.String _LAUNCH_TIMES
+    132:132:public WP7Launcher$AppInfo()
+com.axen.launcher.provider.WP7Launcher$ScreenShot:
+    public static final java.lang.String AUTHORITY
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String SHOTS
+    public static final java.lang.String SHOT_ID
+    public static final int SHOT_TYPE_CREATE
+    public static final int SHOT_TYPE_RUNNING
+    public static final int SHOT_TYPE_INVALID
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String _SHOT_TYPE
+    public static final java.lang.String _DATA
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    191:191:public WP7Launcher$ScreenShot()
+com.axen.launcher.provider.WP7Launcher$TileInfo:
+    public static final java.lang.String AUTHORITY
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String PATH_TILES
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String _TILE_NAME
+    public static final java.lang.String _X
+    public static final java.lang.String _Y
+    public static final java.lang.String _DEFAULT
+    public static final java.lang.String _APP_NAME
+    public static final java.lang.String _APP_DEFAULT_PACKAGE
+    public static final java.lang.String _APP_DEFAULT_ACTIVITY
+    public static final java.lang.String _APP_DEFAULT_ICON
+    public static final java.lang.String _APP_PACKAGE
+    public static final java.lang.String _APP_ACTIVITY
+    public static final java.lang.String _APP_ICON
+    public static final java.lang.String _USE_DEFAULT
+    public static final java.lang.String _LAUNCH_TIMES
+    public static final java.lang.String _WIDE_TILE
+    public static final java.lang.String _FLAGS
+    public static final java.lang.String _ENABLED
+    public static final java.lang.String _TYPE
+    17:17:public WP7Launcher$TileInfo()
+com.axen.launcher.system.CallManager:
+    private static final java.lang.String TAG
+    private static final int CALL_LOG_QUERY
+    140:142:public void unregisterListener(com.axen.launcher.system.CallListener)
+com.axen.launcher.system.CallManager$SingletonHolder:
+    85:85:private CallManager$SingletonHolder()
+com.axen.launcher.system.ContactsManager:
+    private static final int PHOTOS_CHANGED
+    private static final java.lang.String TAG
+com.axen.launcher.system.ContactsManager$SingletonHolder:
+    87:87:private ContactsManager$SingletonHolder()
+com.axen.launcher.system.ImageManager:
+    private static final java.lang.String TAG
+    private static final int UPDATE_PHOTOS
+com.axen.launcher.system.ImageManager$Holder:
+    62:62:private ImageManager$Holder()
+com.axen.launcher.system.Manager:
+    public abstract void init(android.content.Context)
+    public abstract void query()
+com.axen.launcher.system.MessageManager:
+    private static final java.lang.String TAG
+    private static final int MESSAGE_QUERY_SMS
+    private static final int MESSAGE_QUERY_MMS
+    174:176:public void unregisterListener(com.axen.launcher.system.MessageListener)
+com.axen.launcher.system.MessageManager$SingletonHolder:
+    113:113:private MessageManager$SingletonHolder()
+com.axen.launcher.wp7.main.BuildConfig
+com.axen.launcher.wp7.main.R
+com.axen.launcher.wp7.main.R$anim
+com.axen.launcher.wp7.main.R$array
+com.axen.launcher.wp7.main.R$attr
+com.axen.launcher.wp7.main.R$color
+com.axen.launcher.wp7.main.R$dimen
+com.axen.launcher.wp7.main.R$drawable
+com.axen.launcher.wp7.main.R$id
+com.axen.launcher.wp7.main.R$integer
+com.axen.launcher.wp7.main.R$layout
+com.axen.launcher.wp7.main.R$menu
+com.axen.launcher.wp7.main.R$raw
+com.axen.launcher.wp7.main.R$string
+com.axen.launcher.wp7.main.R$style
+com.axen.launcher.wp7.main.WP7Configuration:
+    public static final int BACKGROUND_COLOR_BLACK
+    public static final int BACKGROUND_COLOR_WHITE
+    private static final java.lang.String THEME_COLOR
+    private static final java.lang.String BACKGROUND_COLOR_MODE
+    private static final java.lang.String SHOW_STATUSBAR
+    88:89:public void setStatusBarHeight(int)
+    172:172:public boolean isBackgroundColorChanged()
+    220:220:public int getMenuBackGroundColor()
+    224:224:public int getMenuTextColor()
+    236:236:public android.graphics.drawable.Drawable getRectBack()
+com.axen.launcher.wp7.main.WP7Configuration$Holder:
+    24:24:private WP7Configuration$Holder()
+com.axen.launcher.wp7.ui.AddSpecialTileActivity:
+    private static final java.lang.String TAG
+    private static final int PICK_ACTIVITY_REQUEST_CODE
+    private static final int PICK_TILE_TYPE_REQUEST_CODE
+    public static final java.lang.String PICK_TILE_TYPE_INDEX
+    private static final int TILE_TYPE_INDEX_INVALID
+com.axen.launcher.wp7.ui.AppClassActivity:
+    public static final java.lang.String ACTION_START
+    public static final java.lang.String POSITION_EXTRA
+    private static final java.lang.String TAG
+    private static final int ANIM_DURATION
+com.axen.launcher.wp7.ui.AppClassSpace:
+    private static final java.lang.String TAG
+    66:67:public AppClassSpace(android.content.Context)
+com.axen.launcher.wp7.ui.AppSpace:
+    private static final java.lang.String TAG
+    private static final int MAX_EXCEED_MOVE_MOUNT
+    public static final int MODE_NORMAL
+    public static final int MODE_MENU
+    public static final int MODE_SEARCH
+    113:114:public AppSpace(android.content.Context)
+    478:485:public void scrollToBottom()
+    589:589:public boolean scrollable()
+    727:727:public void updateThemeColor()
+com.axen.launcher.wp7.ui.ButtonSpace:
+    private static final java.lang.String TAG
+    public static final int INDEX_SEARCH
+    public static final int INDEX_ARROW_LEFT
+    public static final int INDEX_ARROW_RIGHT
+    45:46:public ButtonSpace(android.content.Context)
+com.axen.launcher.wp7.ui.DragController:
+    private static final java.lang.String TAG
+    private static final int INVALID_COORDINATE
+    private static final int DRAG_DISTINGUISH_INTERVAL
+    private static final int DRAG_DISTINGUISH_DISTANCE
+    private static final long VIBRATE_DURATION
+    private com.axen.launcher.wp7.ui.DragScroller mDragScroller
+    private android.view.View mScrollView
+    187:188:public void setDragScoller(com.axen.launcher.wp7.ui.DragScroller)
+    205:206:public void removeDragListener(com.axen.launcher.wp7.ui.DragController$DragListener)
+    230:231:public void addDropTarget(com.axen.launcher.wp7.ui.DropTarget)
+    237:238:public void removeDropTarget(com.axen.launcher.wp7.ui.DropTarget)
+    244:245:public void setScrollView(android.view.View)
+    251:256:private static int clamp(int,int,int)
+com.axen.launcher.wp7.ui.DragLayer:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.DragScroller
+com.axen.launcher.wp7.ui.DragSource
+com.axen.launcher.wp7.ui.DragView:
+    private static final java.lang.String TAG
+    private static final int ON_CLICK_TIME
+    private static final int RECT_NONE
+    private static final int RECT_UNPIN
+    private static final int RECT_EDIT
+    84:85:public DragView(android.content.Context)
+    345:346:void remove()
+com.axen.launcher.wp7.ui.DropTarget
+com.axen.launcher.wp7.ui.LaucherActivity:
+    private static final java.lang.String TAG
+    private static final int DIALOG_PROGRESS
+    private static final int DIALOG_APP_MENU
+    private static final int REQUEST_CODE_APPCLASS
+    private static final int LOADING_DELAY_MAX
+    private static final int ASYNC_QUERY_TOKEN_NORMAL
+    private static final int ASYNC_QUERY_TOKEN_UPDATE
+    private static final int ASYNC_QUERY_TOKEN_FIRSTRUN
+    private static final int ASYNC_DELETE_INIT_TYPE
+    private static final int ASYNC_DELETE_RUNNING_TYPE
+    private static final int ASYNC_SHOT_INSERT_COMPLETE
+    private static final int ASYNC_SHOT_INSERT_FIRST_RUN
+    private static final int DEFAULT_PIN_NUMBER
+    private static final java.lang.String MARKET_URI
+    private static final int MENU_SYSTEM_SETTINGS
+    private static final int MENU_LAUNCHER_SETTINGS
+    private static final int ANIM_DURATION
+    1164:1169:public void getStatusBarHeight()
+com.axen.launcher.wp7.ui.LoadedCallback
+com.axen.launcher.wp7.ui.SettingsActivity:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.SettingsThemeActivity:
+    private static final java.lang.String ACCENT_PANEL
+    private static final int REQUEST_CODE_ACCENT_COLOR
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.TileEditActivity:
+    private static final java.lang.String TAG
+    private static final int REQUEST_IMAGE_CODE
+com.axen.launcher.wp7.ui.TileLayout:
+    19:20:public TileLayout(android.content.Context)
+com.axen.launcher.wp7.ui.TileSpace:
+    private static final java.lang.String TAG
+    private static final int MAX_EXCEED_MOVE_MOUNT
+    public static final int STATE_NORMAL
+    public static final int STATE_EDIT
+    136:137:public TileSpace(android.content.Context)
+    727:738:private android.view.View getDropView(int,int)
+com.axen.launcher.wp7.ui.WorkSpace:
+    private static final java.lang.String TAG
+    public static final int SNAP_VELOCITY
+    public static final int TOUCH_EVENT_IDLE
+    public static final int TOUCH_EVENT_DETECT
+    public static final int TOUCH_EVENT_SCROLL_H
+    public static final int TOUCH_EVENT_SCROLL_V
+    public static final int SCREEN_TILE
+    public static final int SCREEN_APP
+    103:104:public WorkSpace(android.content.Context)
+    619:619:public int getScrollState()
+    623:623:public int getTouchSlop()
+    663:666:public void setOnScrollFinishListener(com.axen.launcher.wp7.ui.WorkSpace$OnScrollFinish,int)
+com.axen.launcher.wp7.ui.anim.AnimUtil:
+    13:13:public AnimUtil()
+    16:25:public static android.view.animation.AnimationSet getAppMenuOtherMove(int,int,int,int)
+    29:29:public static android.view.animation.AnimationSet getTileDimAnimations()
+com.axen.launcher.wp7.ui.anim.DistanceInterpolator:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.anim.Rotate3DAnimation:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.apputil.ClassifyApp$AppClass:
+    public static final java.lang.String CLASS_UNKOWN
+    public static final java.lang.String CLASS_BASIC
+com.axen.launcher.wp7.ui.apputil.ClassifyFactory:
+    9:9:public ClassifyFactory()
+com.axen.launcher.wp7.ui.apputil.JapaneseClassify
+com.axen.launcher.wp7.ui.apputil.TranditionalChineseClassify:
+    private static final int MAX_STROKE
+com.axen.launcher.wp7.ui.size.Size:
+    private static final int W_240
+    private static final int W_320
+    private static final int W_480
+    private static final int W_540
+    private static final int W_600
+    private static final int W_640
+    private static final int W_720
+    private static final int W_800
+    private static final java.lang.String TAG
+    public abstract int getWorkspace_w()
+    public abstract int getStatus_item_narrow_w()
+    public abstract int getStatus_item_wide_w()
+    public abstract int getStatus_item_padding()
+    public abstract int getInactive_tile_w()
+    public abstract int getInactive_tile_h()
+    public abstract int getWide_tile_w()
+    public abstract int getApp_class_font_h()
+    public abstract int getSearch_font_h()
+    public abstract int getSearch_box_w()
+    public abstract int getSearch_mode_app_icon_space()
+    public abstract int getSearch_icon_w()
+    public abstract int getSearch_icon_h()
+    public abstract int getSearch_box_app_icon_space()
+    public abstract int getApp_context_menu_item_left_padding()
+    public abstract int getApp_context_menu_item_top_padding()
+    public abstract int getApp_context_menu_item_bottom_padding()
+    public abstract int getApp_context_menu_item_text_size()
+    public abstract int getApp_context_menu_top_padding()
+    public abstract int getApp_context_menu_bottom_padding()
+    public abstract int getSettings_left_space()
+    public abstract int getSettings_right_space()
+    public abstract int getSettings_title_text_size()
+    public abstract int getSettings_title_top_padding()
+    public abstract int getSettings_title_item_space()
+    public abstract int getSettings_item_space()
+    public abstract int getSettings_group_item_space()
+    public abstract int getSettings_editbox_h()
+    public abstract int getSettings_accents_chooser_space()
+    public abstract int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size240:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size320:
+    93:93:public int getWorkspace_w()
+    153:153:public int getStatus_item_narrow_w()
+    156:156:public int getStatus_item_wide_w()
+    159:159:public int getStatus_item_padding()
+    168:168:public int getInactive_tile_w()
+    171:171:public int getInactive_tile_h()
+    174:174:public int getWide_tile_w()
+    201:201:public int getApp_class_font_h()
+    219:219:public int getSearch_font_h()
+    225:225:public int getSearch_box_w()
+    228:228:public int getSearch_mode_app_icon_space()
+    231:231:public int getSearch_icon_w()
+    234:234:public int getSearch_icon_h()
+    237:237:public int getSearch_box_app_icon_space()
+    240:240:public int getApp_context_menu_item_left_padding()
+    243:243:public int getApp_context_menu_item_top_padding()
+    246:246:public int getApp_context_menu_item_bottom_padding()
+    249:249:public int getApp_context_menu_item_text_size()
+    252:252:public int getApp_context_menu_top_padding()
+    255:255:public int getApp_context_menu_bottom_padding()
+    258:258:public int getSettings_left_space()
+    261:261:public int getSettings_right_space()
+    264:264:public int getSettings_title_text_size()
+    267:267:public int getSettings_title_top_padding()
+    270:270:public int getSettings_title_item_space()
+    273:273:public int getSettings_item_space()
+    276:276:public int getSettings_group_item_space()
+    279:279:public int getSettings_editbox_h()
+    288:288:public int getSettings_accents_chooser_space()
+    291:291:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size480:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size540:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size600:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size640:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size720:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.Size800:
+    91:91:public int getWorkspace_w()
+    151:151:public int getStatus_item_narrow_w()
+    154:154:public int getStatus_item_wide_w()
+    157:157:public int getStatus_item_padding()
+    166:166:public int getInactive_tile_w()
+    169:169:public int getInactive_tile_h()
+    172:172:public int getWide_tile_w()
+    199:199:public int getApp_class_font_h()
+    217:217:public int getSearch_font_h()
+    223:223:public int getSearch_box_w()
+    226:226:public int getSearch_mode_app_icon_space()
+    229:229:public int getSearch_icon_w()
+    232:232:public int getSearch_icon_h()
+    235:235:public int getSearch_box_app_icon_space()
+    238:238:public int getApp_context_menu_item_left_padding()
+    241:241:public int getApp_context_menu_item_top_padding()
+    244:244:public int getApp_context_menu_item_bottom_padding()
+    247:247:public int getApp_context_menu_item_text_size()
+    250:250:public int getApp_context_menu_top_padding()
+    253:253:public int getApp_context_menu_bottom_padding()
+    256:256:public int getSettings_left_space()
+    259:259:public int getSettings_right_space()
+    262:262:public int getSettings_title_text_size()
+    265:265:public int getSettings_title_top_padding()
+    268:268:public int getSettings_title_item_space()
+    271:271:public int getSettings_item_space()
+    274:274:public int getSettings_group_item_space()
+    277:277:public int getSettings_editbox_h()
+    286:286:public int getSettings_accents_chooser_space()
+    289:289:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.size.SizeScale:
+    private static final double BASE_W
+    95:95:public int getWorkspace_w()
+    155:155:public int getStatus_item_narrow_w()
+    158:158:public int getStatus_item_wide_w()
+    161:161:public int getStatus_item_padding()
+    170:170:public int getInactive_tile_w()
+    173:173:public int getInactive_tile_h()
+    176:176:public int getWide_tile_w()
+    203:203:public int getApp_class_font_h()
+    221:221:public int getSearch_font_h()
+    227:227:public int getSearch_box_w()
+    230:230:public int getSearch_mode_app_icon_space()
+    233:233:public int getSearch_icon_w()
+    236:236:public int getSearch_icon_h()
+    239:239:public int getSearch_box_app_icon_space()
+    242:242:public int getApp_context_menu_item_left_padding()
+    245:245:public int getApp_context_menu_item_top_padding()
+    248:248:public int getApp_context_menu_item_bottom_padding()
+    251:251:public int getApp_context_menu_item_text_size()
+    254:254:public int getApp_context_menu_top_padding()
+    257:257:public int getApp_context_menu_bottom_padding()
+    260:260:public int getSettings_left_space()
+    263:263:public int getSettings_right_space()
+    266:266:public int getSettings_title_text_size()
+    269:269:public int getSettings_title_top_padding()
+    272:272:public int getSettings_title_item_space()
+    275:275:public int getSettings_item_space()
+    278:278:public int getSettings_group_item_space()
+    281:281:public int getSettings_editbox_h()
+    290:290:public int getSettings_accents_chooser_space()
+    293:293:public int getSettings_accents_chooser_text_size()
+com.axen.launcher.wp7.ui.statusbar.StatusBarManager:
+    5:5:public StatusBarManager()
+    103:103:public static int getSignalStrengthMaxScale()
+com.axen.launcher.wp7.ui.statusbar.StatusbarController:
+    public static final java.lang.String ACTION_UPDATE_TIMER
+    public static final java.lang.String ACTION_UPDATE_ALL
+    private static final java.lang.String TAG
+    private static final int PSL_STATUS
+com.axen.launcher.wp7.ui.widget.AccentAdapter:
+    101:126:private void saveDrawable(android.graphics.drawable.Drawable,java.lang.String)
+com.axen.launcher.wp7.ui.widget.AccentAdapter$AccentData:
+    public static final java.lang.String ACCENT_DATA_COLOR_INDEX
+com.axen.launcher.wp7.ui.widget.AppItemView:
+    private static final java.lang.String TAG
+    31:32:public AppItemView(android.content.Context)
+    64:65:public void setAppItem(android.content.pm.ResolveInfo)
+    68:68:public android.content.pm.ResolveInfo getAppItem()
+com.axen.launcher.wp7.ui.widget.CallTile:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.widget.ClassPositionView:
+    68:70:public void setColor(int)
+    73:73:public int getColor()
+    77:84:private void updateColor(int)
+com.axen.launcher.wp7.ui.widget.ClassView:
+    63:65:public void setColor(int)
+    68:68:public int getColor()
+    135:135:public com.axen.launcher.wp7.ui.apputil.ClassifyApp$AppClass getAppClass()
+com.axen.launcher.wp7.ui.widget.CommonTile:
+    private static final java.lang.String TAG
+    148:148:public boolean isWideTile()
+    173:177:public void setAppIcon(int)
+com.axen.launcher.wp7.ui.widget.ContactsTile:
+    private static final java.lang.String TAG
+    private static final int ROW_NUMBER
+    private static final int COL_NUMBER
+    private static final int VIEW_UPDATE_INTERVAL
+    private static final long QUERY_DELAY_TIME
+    237:237:public boolean isWideTile()
+    258:258:public void setAppIcon(int)
+com.axen.launcher.wp7.ui.widget.GalleryTile:
+    private static final int PREPARED_NUMBER
+    private static final int UPDATE_INTERVAL
+    227:227:public void setAppIcon(int)
+com.axen.launcher.wp7.ui.widget.IndicatorTile:
+    private static final java.lang.String TAG
+    protected static final int QUERY_DELAY_TIME
+    protected static final int REQUEST_LAYOUT_DELAY_TIME
+    102:102:public boolean isWideTile()
+    203:206:public void setAppIcon(int)
+com.axen.launcher.wp7.ui.widget.MessageTile:
+    private static final java.lang.String TAG
+com.axen.launcher.wp7.ui.widget.Tile:
+    66:66:protected int getAlphaValue()
+    public abstract boolean isWideTile()
+    public abstract void setAppName(java.lang.CharSequence)
+    public abstract void setAppIcon(int)
+com.axen.launcher.wp7.ui.widget.TroggleSwitcher:
+    15:16:public TroggleSwitcher(android.content.Context)
+com.axen.launcher.wp7.ui.widget.WP7ProgessView:
+    private static final int RECT_NUMBER
+    private static final int RECT_WIDTH
+    private static final float SLOW_RANGE
+    private static final int UPDATE_PROGRESS_INTERVAL
+    private static final int STANDARD_SCREEN_W
+    36:37:public WP7ProgessView(android.content.Context)
+    59:61:public void setColor(int)
+    64:64:public int getColor()
+com.axen.utils.AXLog:
+    private static final boolean DEBUG
+    5:5:public AXLog()
+com.axen.utils.ArrayUtil
+com.axen.utils.HSL:
+    149:165:public static float RGBFromHue(float,float,float)
+com.axen.utils.ImageUtil:
+    7:7:public ImageUtil()
+    66:75:private static boolean isFullSquareNum(int)
+com.axen.utils.ResourceUtil:
+    10:12:private int getPexil(int)
+com.axen.utils.Utils:
+    5:5:public Utils()

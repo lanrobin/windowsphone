@@ -1,0 +1,3 @@
+android update project -n WinPhone7 -t 10 -p .
+
+ant release

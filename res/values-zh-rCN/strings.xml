@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Windows phone 桌面</string>
+    <string name="app_context_pin_to_start">固定到\"开始\"屏幕</string>
+    <string name="app_context_uninstall">卸载</string>
+    <string name="app_context_rate_and_review">打分并评价</string>
+    <string name="activity_not_found">找不到应用程序。</string>
+    <string name="string_null"></string>
+    <string name="string_na">不可用</string>
+    <string name="string_add_special_tile_settings">增加特殊瓷砖</string>
+    <string name="string_search_box_tip">搜索</string>
+    <string name="string_system_settings">系统设置</string>
+    <string name="string_launcher_settings">桌面设置</string>
+    <string name="string_settings">设置</string>
+    <string name ="string_settings_accents">强调色</string>
+    <string name="string_settings_theme">主题</string>
+    <string name="settings_theme_summary_prefix">更换手机背景和</string>
+    <string name="settings_theme_summary_middle">强调色</string>
+    <string name="settings_theme_summary_suffix">，与您当天、本周或\n整月的心情呼应。</string>
+    <string name="string_settings_theme_background">背景</string>
+    <string name="string_settings_theme_background_dark">深</string>
+    <string name="string_settings_theme_background_light">浅</string>
+    <string name="string_settings_theme_accent_color">强调色</string>
+    
+    <string name="string_accent_color_nokia_blue">nokia blue</string>
+    <string name="string_accent_color_magenta">洋红</string>
+    <string name="string_accent_color_purple">紫</string>
+    <string name="string_accent_color_teal">青</string>
+    <string name="string_accent_color_lime">黄绿</string>
+    <string name="string_accent_color_brown">褐</string>
+    <string name="string_accent_color_pink">粉红</string>
+    <string name="string_accent_color_mango">橙</string>
+    <string name="string_accent_color_blue">蓝</string>
+    <string name="string_accent_color_red">红</string>
+    <string name="string_accent_color_green">绿</string>
+    
+    <!-- 新增加的字符 2012-03-13 -->
+	<string name="string_show_status_bar">显示系统状态栏</string>
+	<string name="string_hide_tile_name">隐藏应用名称</string>
+	<string name="string_large_tile_icon">使用大图标</string>
+	<string name="string_choose_tile_icon">选择应用图标</string>
+	<string name="string_ok">确定</string>
+	<string name="string_cancel">取消</string>
+	<string name="string_on">生效</string>
+	<string name="string_off">失效</string>
+	<string name="string_choose_app">选择应用程序</string>
+	<string name="string_choose_tile_type">选择瓷砖的类型</string>
+	<string name="string_choose_tile_type_to_continue">请选择一种瓷砖类型，才能添加。</string>
+	<string name="string_choose_application_to_continue">请选择一个应用程序，才能添加。</string>
+</resources>
